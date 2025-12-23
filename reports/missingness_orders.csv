@@ -1,0 +1,7 @@
+,n_missing,p_missing
+amount,1,0.2
+quantity,1,0.2
+order_id,0,0.0
+user_id,0,0.0
+created_at,0,0.0
+status,0,0.0

@@ -1,0 +1,15 @@
+## Day 1 – Data Loading & Schema Enforcement
+
+- Set up project structure and virtual environment
+- Loaded raw CSV files (orders, users)
+- Enforced data schema and handled invalid values
+- Generated processed Parquet files
+- Added basic logging and run metadata
+
+
+## Day 2 – Data Quality & Cleaning
+
+- Implemented data quality checks and validation
+- Created missingness reports for raw data
+- Cleaned and normalized order data
+- Generated cleaned Parquet files for analysis
