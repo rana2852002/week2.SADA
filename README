@@ -13,3 +13,16 @@
 - Created missingness reports for raw data
 - Cleaned and normalized order data
 - Generated cleaned Parquet files for analysis
+
+
+## Day 3 — Datetimes, Outliers & Analytics Table
+
+- Parsed `created_at` as datetime (UTC)
+- Added time features (year, month, day of week, hour)
+- Performed data quality checks (required columns, non-empty, unique user_id)
+- Safely joined orders to users using a validated left join
+- Added outlier handling:
+  - Winsorized `amount` for stable analysis
+  - (Optional) flagged outlier rows
+- Built and saved the analytics table to `data/processed/analytics_table.parquet`
+- Generated a small summary table (revenue and order count by country) for quick inspection
